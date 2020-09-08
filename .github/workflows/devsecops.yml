@@ -1,4 +1,4 @@
-name: Build
+name: DevSecOps_Pipeline
 on:
   push:
     branches:
