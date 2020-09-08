@@ -14,6 +14,10 @@
         <tiles.version>2.2.2</tiles.version>
         <!-- If run from Bamboo this will be replaced with the bamboo build number -->
         <build.number>local</build.number>
+  <sonar.projectKey>InfosysPoC_WebGoat-Legacy</sonar.projectKey>
+  <sonar.organization>infosyspoc</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
     </properties>
 
     <build>
