@@ -46,10 +46,10 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
        # Autobuild attempts to build any compiled languages  (C/C++, C#, or Java).
-    # If this step fails, then you should remove it and run the build manually (see below)
-      - name: Build
-        uses: github/codeql-action/autobuild@v1
-      - run: mvn package
+       # If this step fails, then you should remove it and run the build manually (see below)
+      - run: |
+         make bootstrap
+         make release
       # Initializes the CodeQL tools for scanning.
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v1
