@@ -65,3 +65,9 @@ jobs:
       uses: peter-murray/github-security-report-action@v1
       with:
         token: ${{ secrets.CODEQL_REPORT_TOKEN }}
+
+    - name: Upload Security Report
+      uses: actions/upload-artifact@v2
+      with:
+        name: reports
+        path: ./*.pdf
