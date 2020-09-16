@@ -1,4 +1,4 @@
-# Sonatype DepShield
+# Sonatype DepShield 
 [![DepShield Badge](https://depshield.sonatype.org/badges/WebGoat/WebGoat-Legacy/depshield.svg)](https://depshield.github.io)
 
 # Important Information
