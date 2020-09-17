@@ -1,5 +1,6 @@
 # Sonatype DepShield 
-[![DepShield Badge](https://depshield.sonatype.org/badges/WebGoat/WebGoat-Legacy/depshield.svg)](https://depshield.github.io)
+[![DepShield Badge](https://depshield.sonatype.org/badges/WebGoat/WebGoat-Legacy/depshield.svg)](https://depshield.github.io)[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftonychonji%2FWebGoat-Legacy.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftonychonji%2FWebGoat-Legacy?ref=badge_shield)
+
 
 # Important Information
 
@@ -86,3 +87,7 @@ project using maven:
 
     > cd target
     > java -jar WebGoat-6.0-exec-war.jar http://localhost:8080/WebGoat
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftonychonji%2FWebGoat-Legacy.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftonychonji%2FWebGoat-Legacy?ref=badge_large)
